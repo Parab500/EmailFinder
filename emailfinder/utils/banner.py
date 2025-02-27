@@ -11,7 +11,7 @@ usage_example = "emailfinder -d domain.com"
 
 
 def show_banner():
-    fonts = ["graffiti", "smshadow", "standard", "cosmic", "speed", "epic"]
+    fonts = ["standard"]
     custom_banner = Figlet(font=choice(fonts))
     banner = custom_banner.renderText("eFnDR")
     print_formatted_text(f"{banner}")
